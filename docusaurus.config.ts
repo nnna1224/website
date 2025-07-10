@@ -82,15 +82,10 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/nnna1224',
-          label: 'GitHub',
           position: 'right',
+          label: '備忘録',
         },
+        {to: '/blog', label: '独白', position: 'right'},
       ],
     },
     footer: {
