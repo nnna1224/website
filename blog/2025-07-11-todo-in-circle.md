@@ -19,6 +19,9 @@ tags: [G^2]
 ### ネットワーク関係
 #### 全体
 - IPアドレス(固定であることは確認済み)
+- ルータのWAN側のipアドレス
+    - 固定ではなかったし，管理者の明記されていないサブネットを使用していた．
+    - https://sojo.yamanashi.ac.jp/facilities/inside/admins/
 
 #### VPN
 おそらくVPNを使っているため，以下を確認する．
