@@ -11,6 +11,12 @@ pacman-key --init
 pacman-key --populate archlinux
 ```
 
+## 基本パッケージのインストール
+```
+pacman -Syyu
+pacman -S base base-devel git wget reflector zsh neovim openssh
+```
+
 ## デフォルトエディタの設定
 ```
 export EDITOR="$(which nvim)"
