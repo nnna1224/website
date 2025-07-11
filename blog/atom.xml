@@ -23,6 +23,12 @@
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E5%85%A8%E4%BD%93" class="hash-link" aria-label="Direct link to 全体" title="Direct link to 全体">​</a></h4>
 <ul>
 <li>IPアドレス(固定であることは確認済み)</li>
+<li>ルータのWAN側のipアドレス<!-- -->
+<ul>
+<li>固定ではなかったし，管理者の明記されていないサブネットを使用していた．</li>
+<li><a href="https://sojo.yamanashi.ac.jp/facilities/inside/admins/" target="_blank" rel="noopener noreferrer">https://sojo.yamanashi.ac.jp/facilities/inside/admins/</a></li>
+</ul>
+</li>
 </ul>
 <h4 class="anchor anchorWithStickyNavbar_LWe7" id="vpn">VPN<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#vpn" class="hash-link" aria-label="Direct link to VPN" title="Direct link to VPN">​</a></h4>
 <p>おそらくVPNを使っているため，以下を確認する．</p>
