@@ -4,10 +4,110 @@
         <title>nnna Blog</title>
         <link>https://nnna1224.github.io/website/blog</link>
         <description>nnna Blog</description>
-        <lastBuildDate>Thu, 10 Jul 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Jul 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[サーバに関してG^2でやりたいこと]]></title>
+            <link>https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle</link>
+            <guid>https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle</guid>
+            <pubDate>Fri, 11 Jul 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[サーバをなんとかする]]></description>
+            <content:encoded><![CDATA[<p>サーバをなんとかする<br>
+➡ 運用レベルに持っていく</p>
+<p>そのためにOSのアップデートをしたいが，引継ぎ資料がない(今はたしかUbuntu16くらいだったかな)．</p>
+<p>今どうやって管理されているのかも不明なので，いっそのことOSを入れ替えて，ちゃんと資料を作ろうと考えている．</p>
+<p>その際色々とバックアップをとった方が良いだろうと思って，メモ的な感じでこのページを書いた．</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="確認するもの">確認するもの<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E7%A2%BA%E8%AA%8D%E3%81%99%E3%82%8B%E3%82%82%E3%81%AE" class="hash-link" aria-label="Direct link to 確認するもの" title="Direct link to 確認するもの">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ネットワーク関係">ネットワーク関係<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E9%96%A2%E4%BF%82" class="hash-link" aria-label="Direct link to ネットワーク関係" title="Direct link to ネットワーク関係">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="全体">全体<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E5%85%A8%E4%BD%93" class="hash-link" aria-label="Direct link to 全体" title="Direct link to 全体">​</a></h4>
+<ul>
+<li>IPアドレス(固定であることは確認済み)</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="vpn">VPN<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#vpn" class="hash-link" aria-label="Direct link to VPN" title="Direct link to VPN">​</a></h4>
+<p>おそらくVPNを使っているため，以下を確認する．</p>
+<ul>
+<li>VPNサービス(個人的にwireguardだとうれしいかも)</li>
+<li>設定ファイル</li>
+<li>ルータの設定<!-- -->
+<ul>
+<li>パスワードなどは引き継いでいないが，アクセスできるのか．</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ファイルサーバとしての運用">ファイルサーバとしての運用<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E9%81%8B%E7%94%A8" class="hash-link" aria-label="Direct link to ファイルサーバとしての運用" title="Direct link to ファイルサーバとしての運用">​</a></h3>
+<p>sambaを使っていることは確認済み．</p>
+<ul>
+<li>sambaの設定ファイル</li>
+</ul>
+<p>OSアップデート後，sambaは入れなくても良いと考えている(wikiとして運用できれば十分だと考えている)．</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="sshの設定">SSHの設定<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#ssh%E3%81%AE%E8%A8%AD%E5%AE%9A" class="hash-link" aria-label="Direct link to SSHの設定" title="Direct link to SSHの設定">​</a></h3>
+<ul>
+<li>SSH設定を一応確認</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="データ関係">データ関係<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E3%83%87%E3%83%BC%E3%82%BF%E9%96%A2%E4%BF%82" class="hash-link" aria-label="Direct link to データ関係" title="Direct link to データ関係">​</a></h3>
+<ul>
+<li>sambaの共有ディレクトリなど，いろいろなところに存在するデータをバックアップ<!-- -->
+<ul>
+<li>必要なさそうなものは除外してよさそうか．</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="再設定するもの">再設定するもの<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E5%86%8D%E8%A8%AD%E5%AE%9A%E3%81%99%E3%82%8B%E3%82%82%E3%81%AE" class="hash-link" aria-label="Direct link to 再設定するもの" title="Direct link to 再設定するもの">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="os関係">OS関係<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#os%E9%96%A2%E4%BF%82" class="hash-link" aria-label="Direct link to OS関係" title="Direct link to OS関係">​</a></h3>
+<ul>
+<li>必要なパッケージのインストール</li>
+<li>皆がsshで使用したりするなら，ユーザの登録</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ネットワーク関係-1">ネットワーク関係<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E9%96%A2%E4%BF%82-1" class="hash-link" aria-label="Direct link to ネットワーク関係" title="Direct link to ネットワーク関係">​</a></h3>
+<ul>
+<li>IPアドレスの固定</li>
+<li>VPNを導入し，今までと同様のルーティング設定を行う(大学の規約とか怖いので，既存の設定を流用しておく)．<!-- -->
+<ul>
+<li>VPNサービスのインストール</li>
+<li>設定ファイルの記述</li>
+<li>ルータの設定</li>
+<li>誰かの端末を用いてテスト</li>
+</ul>
+</li>
+<li>VPNの設定をサークルメンバーに案内する．</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ファイルサーバ">ファイルサーバ<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%B5%E3%83%BC%E3%83%90" class="hash-link" aria-label="Direct link to ファイルサーバ" title="Direct link to ファイルサーバ">​</a></h3>
+<ul>
+<li>必要そうであれば，sambaを導入する．<!-- -->
+<ul>
+<li>sambaのインストール</li>
+<li>設定ファイルの記述</li>
+<li>誰かの端末を用いてテスト</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="データ">データ<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#%E3%83%87%E3%83%BC%E3%82%BF" class="hash-link" aria-label="Direct link to データ" title="Direct link to データ">​</a></h3>
+<ul>
+<li>GitHubやその他クラウドにバックアップを取っておく</li>
+<li>必要であれば，サーバにデータを再度入れる</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="wiki">wiki<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#wiki" class="hash-link" aria-label="Direct link to wiki" title="Direct link to wiki">​</a></h3>
+<ul>
+<li>GROWIを導入(個人的に使いやすい/新入部員にもwikiを書いたりしてほしいため)<!-- -->
+<ul>
+<li>別のサービスがあればそちらでもよい(そもそもOneNoteで良い可能性はあるし，SSGで良いかもしれない．それ以外にも，wiki.jsやdokuwikiなど，サービスの選択肢は多い)</li>
+<li>ユーザの登録</li>
+</ul>
+</li>
+<li>上記，サーバのセットアップやサービスの導入について，再現可能なレベルで記録しておく．</li>
+<li>また，管理についても同様に記録しておく．</li>
+<li>また，wikiのデータやその他色々なデータはどこかにバックアップを取っておく．</li>
+<li>導入後，サークルメンバーに案内を送る．</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="os選定について">OS選定について<a href="https://nnna1224.github.io/website/blog/2025/07/11/todo-in-circle#os%E9%81%B8%E5%AE%9A%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6" class="hash-link" aria-label="Direct link to OS選定について" title="Direct link to OS選定について">​</a></h2>
+<p>今回，サーバの使い方が受け継がれず，アップデートもされていないために大変だった．<br>
+そもそも，本当にサーバなのかもあやしいけれど．</p>
+<p>そこで，rolling releaseのarchなら良いのでは？と思ったが，まあ後輩のことを考えると普通にUbuntuのLTSにしておくのが良いか．</p>
+<p>アップデートに関しては案内を書いておけば良いし，ちゃんと受け継げば良いだけだし．</p>]]></content:encoded>
+            <category>G^2</category>
+        </item>
         <item>
             <title><![CDATA[最初の投稿]]></title>
             <link>https://nnna1224.github.io/website/blog/2025/07/10/</link>

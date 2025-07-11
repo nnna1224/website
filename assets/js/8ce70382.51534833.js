@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[853],{5666:e=>{e.exports=JSON.parse('{"tags":[{"label":"G^2","permalink":"/website/blog/tags/G^2","description":"\u5927\u5b66\u3067\u6240\u5c5e\u3057\u3066\u3044\u308b\u4e00\u6b21\u5275\u4f5c\u30b5\u30fc\u30af\u30eb","count":1}]}')}}]);
